@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: 'Bitter', serif;
+    font-family: 'Nunito Sans', sans-serif;
+}
+body{
+    background-color: rgb(115, 196, 115);
+}
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    width: 90%;
+}
+
+h1{
+    font-size: 4rem;
+    text-transform: uppercase;
+    color: rgb(49, 43, 100);
+    text-align: center;
+    margin-top: 35px;
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+
+select{
+    width: 175px;
+    padding: 5px 10px;
+    font-size: 1.5rem;
+    outline: none;
+    border: 2px solid rgb(13, 145, 246);
+}
+
+.times{
+    display: flex;
+    margin: 0 auto;
+    gap: 60px;
+    text-align: center;
+    flex-wrap: wrap;
+    max-width: 950px;
+    justify-content: center;
+}
+
+.style_times{
+    font-size: 2rem;
+    width: 250px;
+    background-color: white;
+    color: rgb(64, 2, 2);
+    display: flex;
+    justify-content: center;
+    padding: 15px 70px;
+    font-weight: 500;
+    letter-spacing: 1.2px;
+    border: 2px solid black;
+    line-height: 53px;
+}
+.style_times:hover{
+    box-shadow: 0px 0px 15px 8px rgb(74, 72, 72);
+    transition: all 1s;
+    background-color: rgb(85, 85, 205);
+    color: white;
+    font-weight: 700;
+}

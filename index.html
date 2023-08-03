@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@400;700&family=Nunito+Sans:opsz,wght@6..12,500;6..12,700&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+
+        <h1>namoz vaqtlari</h1>
+
+        <select id="regions" onchange="regionsValue();">
+            <option value="toshkent">Toshkent</option>
+            <option value="andijon">Andijon</option>
+            <option value="farg'ona">Fargona</option>
+            <option value="namangan">Namangan</option>
+            <option value="guliston">Sirdaryo</option>
+            <option value="jizzax">Jizzax</option>
+            <option value="samarqand">Samarqand</option>
+            <option value="qarshi">Qarshi</option>
+            <option value="termiz">Surxandaryo</option>
+            <option value="navoiy">Navoiy</option>
+            <option value="buxoro">Buhoro</option>
+            <option value="xiva">Xorazm</option>
+        </select>
+
+        <div class="times">
+            <div class="style_times bomdod"></div>
+            <div class="style_times quyosh"></div>
+            <div class="style_times peshin"></div>
+            <div class="style_times asr"></div>
+            <div class="style_times shom"></div>
+            <div class="style_times hufton"></div>
+        </div>
+
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
