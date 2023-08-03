@@ -1,4 +1,4 @@
-
+const regionName = document.querySelector('.region_name')
 const bomdod = document.querySelector('.bomdod')
 const quyosh = document.querySelector('.quyosh')
 const peshin = document.querySelector('.peshin')
@@ -15,6 +15,7 @@ function regionsValue() {
       return request.json()
     })
     .then((data => {
+      regionName.innerHTML = `${data.region}`;
       bomdod.innerHTML = `Bomdod <br> ${data.times.tong_saharlik}`;
       quyosh.innerHTML = `Quyosh <br>${data.times.quyosh}`;
       peshin.innerHTML = `Peshin <br>${data.times.peshin}`;
